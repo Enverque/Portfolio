@@ -56,7 +56,7 @@ function initializePreloader() {
                 preloader.style.opacity = '0';
                 preloader.style.visibility = 'hidden';
                 document.body.style.overflow = 'visible';
-            }, 3000);
+            }, 5000);
         }
         progressFill.style.width = progress + '%';
     }, 100);
@@ -67,7 +67,7 @@ function initializePreloader() {
         preloader.style.visibility = 'hidden';
         document.body.style.overflow = 'visible';
         clearInterval(interval);
-    }, 0);
+    }, 1000);
 }
 
 // Theme Management
