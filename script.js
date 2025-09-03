@@ -6,7 +6,8 @@
 })();
 
 // Global variables
-let currentTheme = localStorage.getItem('theme') || 'light';
+let currentTheme = localStorage.getItem('theme') || 'dark';
+
 
 // DOM Content Loaded
 document.addEventListener('DOMContentLoaded', function() {
